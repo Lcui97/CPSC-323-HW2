@@ -1,5 +1,8 @@
 def common_prefix(prod1, prod2):
     """
+    Full disclosure - This code with created with consultation from ChatGPT o3 Model.
+    Model provided pseudocode for marked sectioins, and helped with trouble shooting.
+    
     Returns the longest common prefix (as a list of symbols)
     between two productions (lists of symbols).
     """
@@ -13,6 +16,8 @@ def common_prefix(prod1, prod2):
 
 def left_factor_grammar(grammar):
     """
+    PSEUDOCODE PROVIDED BY CHATGPT
+    
     Performs left-factoring on the given grammar until no more
     factoring opportunities remain.
     """
